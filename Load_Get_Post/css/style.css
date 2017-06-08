@@ -1,0 +1,15 @@
+body{
+	margin: 10px;
+	width: 100%;
+}
+b{
+	color: blue;
+}
+.th-color{
+	background-color: blue;
+	text-align: center;
+	color: white;
+}
+#location{
+	border: 1px solid white;
+}
