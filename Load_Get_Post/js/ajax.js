@@ -55,27 +55,6 @@ $(document).ready(function(){
 	});
 
 	/*=============================================================*/
-	// this is method ajax[get]
-	$(".loads-3").click(function(){
-		var id=document.getElementById("id").value;
-		var title=document.getElementById("name").value;
-		var statuss=document.getElementById("statuss").value;
-		var image=document.getElementById("image").value;
-		var obj = {
-			"TITLE": title,
-			"DESCRIPTION": "Keep on Fighting",
-			"AUTHOR": 0,
-			"CATEGORY_ID": 0,
-			"STATUS": statuss,
-			"IMAGE": image
-		};
-		$.post("http://110.74.194.125:1301/v1/api/articles?page=1&limit=15",obj,function(data,status,request){
-			if(status=="success"){
-				alert(data.DATA.ID);
-			}
-		});
-	});
-	/*=============================================================*/
 	// this is method ajax[post]
 	$(".loads-4").click(function(){	
 		var id=document.getElementById("id").value;
