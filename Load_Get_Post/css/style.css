@@ -6,10 +6,16 @@ b{
 	color: blue;
 }
 .th-color{
-	background-color: blue;
+	background-color: #1565C0;
 	text-align: center;
 	color: white;
 }
 #location{
 	border: 1px solid white;
+}
+table tr,th, td{
+	padding: 0px;
+}
+img{
+	width: 20px;
 }

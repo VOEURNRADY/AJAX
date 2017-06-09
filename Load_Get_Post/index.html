@@ -12,31 +12,48 @@
 <body>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wrapper">
 		<h1>AJAX <b><span id="title"></span></b></h1>
+		<!-- button load -->
 		<button type="button" class="btn btn-primary loads">load</button>
+		<!-- button load get -->
 		<button type="button" class="btn btn-primary loads-1">$.get()</button>
-		<button type="button" class="btn btn-primary loads-2">$.ajax()[get]</button>
-		<p id="ps"></p>
+		<!-- button ajax[get] -->
+		<button type="button" class="btn btn-primary loads-2">$.ajax()[get]</button><br>
+		<!-- form  --> 
 		<form action="" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 form-group">
-			ID: <input class="form-control" type="text" id="id" name="id" placeholder="id">
+			<!-- input id -->
+			ID: <input class="form-control aa" type="text" id="id" name="id" placeholder="id">
+			<!-- input title -->
 			TITLE: <input class="form-control" type="text" id="name" name="title" placeholder="title">
+			<!-- input status -->
 			STATUS: <input class="form-control" type="text" id="statuss" name="status" placeholder="status">
+			<!-- input image -->
 			IMAGE: <input class="form-control" type="text" id="image" name="image" placeholder="image">
 		</form>
+		<!-- button post -->
 		<div style="clear: both;">
+			<!-- button post -->
 			<button type="button" class="btn btn-primary loads-3">$.post()</button>
+			<!-- button ajax[post] -->
 			<button type="button" class="btn btn-primary loads-4">$.ajax()[post]</button>
+			<!-- button delete -->
 			<button type="button" class="btn btn-primary loads-5">DELETE</button>
+			<!-- button put -->
 			<button type="button" class="btn btn-primary loads-6">PUT</button>
 		</div><br>
+		<!-- p for show load data -->
+		<p id="ps"></p>
+		<!-- table show data -->
 		<table  id="location" border='1' class="table">
+			<!-- row show header -->
 			<tr>
+				<th class="th-color" style="width: 65px;">#</th>
 				<th class="th-color">ID</th>
 				<th class="th-color">TITLE</th>
+				<th class="th-color">CATEGORY ID</th>
+				<th class="th-color">AUTHOR</th>
 				<th class="th-color">STATUS</th>
 				<th class="th-color">IMAGES</th>
-			</tr>
-			<tr>
-			</tr>
+			</tr>	
 		</table>
 	</div>
 </body>
